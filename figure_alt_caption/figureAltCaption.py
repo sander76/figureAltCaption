@@ -72,7 +72,7 @@ class FigureCaptionProcessor(BlockProcessor):
 class FigureCaptionExtension(Extension):
     def extendMarkdown(self, md, md_globals):
         """ Add an instance of FigcaptionProcessor to BlockParser. """
-        md.parser.blockprocessors.add('figureAltcaption',
+        md.parser.blockprocessors.add('figureAltCaption',
                                       FigureCaptionProcessor(md.parser),
                                       '<ulist')
 
