@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='figureAltCaption',
     version='1.0',
-    py_modules=['figureAltCaption'],
+    py_modules=['mkx_figureAltCaption'],
     packages=[''],
     url='',
     license='',
